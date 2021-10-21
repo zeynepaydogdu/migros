@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-21T12:22:28.042Z",
+        "line": 3,
+        "name": "Magazadan alacagim secenegi ile sepete urun ekleme",
+        "description": "",
+        "id": "migros-01;magazadan-alacagim-secenegi-ile-sepete-urun-ekleme",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14779284600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici migros anasayfasina gider",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.kullanici_migros_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 797189600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "teslimat yontemi belirleye tiklar",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.teslimatYontemiBelirleyeTiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 871996500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "magazadan alacagim secilir",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.magazadanAlacagimSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3338003200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "siparisini nerden almak istersin secenegi doldurulur",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.siparisiniNerdenAlmakIstersinSecenegiDoldurulur()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5159279400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "searchboxa \"arananUrun\" yazilir ve arama butonuna tiklanir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arananUrun\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.MigrosStepDefinitions.searchboxaYazilirVeAramaButonunaTiklanir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7204597500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cappy ve migros markalari secilir",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.cappyVeMigrosMarkalariSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3943892100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "en son urun sepete eklenir",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.enSonUrunSepeteEklenir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4796410300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sepetim sayfasina gidilir urun sepette mi kontrolu yapilir",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.sepetimSayfasinaGidilirUrunSepetteMiKontroluYapilir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364531200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.MigrosStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Migros_01",
+    "description": "",
+    "id": "migros-01",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/migros.feature",
+    "tags": []
+  }
+]
