@@ -5,7 +5,7 @@ Feature:Migros_01
     Then teslimat yontemi belirleye tiklar
     And magazadan alacagim secilir
     And siparisini nerden almak istersin secenegi doldurulur
-    And searchboxa "arananUrun" yazilir ve arama butonuna tiklanir
+    And searchboxa "seftali" yazilir ve arama butonuna tiklanir
     And cappy ve migros markalari secilir
     And en son urun sepete eklenir
     Then sepetim sayfasina gidilir urun sepette mi kontrolu yapilir

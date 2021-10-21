@@ -48,8 +48,9 @@ public class MigrosStepDefinitions {
         Assert.assertTrue(page.magazaDogrulama.isDisplayed());
     }
     @And("searchboxa {string} yazilir ve arama butonuna tiklanir")
-    public void searchboxaYazilirVeAramaButonunaTiklanir(String arananUrun) {
-        page.searchBox.sendKeys(ConfigReader.getProperty("arananUrun")+Keys.ENTER);
+    public void searchboxaYazilirVeAramaButonunaTiklanir(String string) {
+        page.searchBox.sendKeys(string+Keys.ENTER);
+       // page.searchBox.sendKeys(ConfigReader.getProperty("arananUrun")+Keys.ENTER);
         Assert.assertTrue(page.arananUrunDogrulama.isDisplayed());
     }
 

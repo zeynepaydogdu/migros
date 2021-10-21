@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.04">
-    <testcase classname="Migros_01" name="Magazadan alacagim secenegi ile sepete urun ekleme" time="41.479">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.39">
+    <testcase classname="Migros_01" name="Magazadan alacagim secenegi ile sepete urun ekleme" time="42.86">
         <system-out>
             <![CDATA[Given kullanici migros anasayfasina gider...................................passed
 Then teslimat yontemi belirleye tiklar......................................passed
 And magazadan alacagim secilir..............................................passed
 And siparisini nerden almak istersin secenegi doldurulur....................passed
-And searchboxa "arananUrun" yazilir ve arama butonuna tiklanir..............passed
+And searchboxa "seftali" yazilir ve arama butonuna tiklanir.................passed
 And cappy ve migros markalari secilir.......................................passed
 And en son urun sepete eklenir..............................................passed
 Then sepetim sayfasina gidilir urun sepette mi kontrolu yapilir.............passed
