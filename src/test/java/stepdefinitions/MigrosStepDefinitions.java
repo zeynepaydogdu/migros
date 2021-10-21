@@ -39,9 +39,7 @@ public class MigrosStepDefinitions {
         Actions actions = new Actions(Driver.getDriver());
         page.ilDropdown.click();
         page.istanbul.click();
-        //actions.sendKeys(Keys.TAB).perform();
         page.ilce.click();
-        //Select select=new Select(page.atasehir);
         page.atasehir.click();
         page.magaza.click();
         page.mmmmigros.click();
@@ -50,7 +48,6 @@ public class MigrosStepDefinitions {
     @And("searchboxa {string} yazilir ve arama butonuna tiklanir")
     public void searchboxaYazilirVeAramaButonunaTiklanir(String string) {
         page.searchBox.sendKeys(string+Keys.ENTER);
-       // page.searchBox.sendKeys(ConfigReader.getProperty("arananUrun")+Keys.ENTER);
         Assert.assertTrue(page.arananUrunDogrulama.isDisplayed());
     }
 

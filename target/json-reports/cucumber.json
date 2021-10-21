@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-21T12:46:28.004Z",
+        "start_timestamp": "2021-10-21T12:57:16.350Z",
         "line": 3,
         "name": "Magazadan alacagim secenegi ile sepete urun ekleme",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16518759300,
+              "duration": 24884822100,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 429138400,
+              "duration": 672030100,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 768032300,
+              "duration": 815967400,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 5608000200,
+              "duration": 5838001000,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 3220489000,
+              "duration": 3542403800,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 7043821000,
+              "duration": 7269694600,
               "status": "passed"
             },
             "line": 9,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 3772360500,
+              "duration": 4096725200,
               "status": "passed"
             },
             "line": 10,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 4946038700,
+              "duration": 5645263800,
               "status": "passed"
             },
             "line": 11,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 356504600,
+              "duration": 328750500,
               "status": "passed"
             },
             "line": 12,
